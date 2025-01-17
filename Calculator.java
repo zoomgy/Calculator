@@ -14,6 +14,10 @@ public class Calculator {
         System.out.println("4.Division");
         System.out.print("Enter Your Choice of Operation (Number) --> ");
         int choice = sc.nextInt();
+        if (choice == 1) {
+            System.out.print("Added Numbers are --> ");
+            System.out.println(first + second);
+        }
         System.out.println();
     }
 }
