@@ -22,6 +22,10 @@ public class Calculator {
             System.out.print("Substraction --> ");
             System.out.println(first - second);
         }
+        if (choice == 3) {
+            System.out.print("Division --> ");
+            System.out.println(first / second);
+        }
         System.out.println();
     }
 }
