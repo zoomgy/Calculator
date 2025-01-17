@@ -18,6 +18,10 @@ public class Calculator {
             System.out.print("Added Numbers are --> ");
             System.out.println(first + second);
         }
+        if (choice == 2) {
+            System.out.print("Substraction --> ");
+            System.out.println(first - second);
+        }
         System.out.println();
     }
 }
