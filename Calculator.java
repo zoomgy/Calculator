@@ -17,15 +17,19 @@ public class Calculator {
         if (choice == 1) {
             System.out.print("Added Numbers are --> ");
             System.out.println(first + second);
-        }
-        if (choice == 2) {
+        } else if (choice == 2) {
             System.out.print("Substraction --> ");
             System.out.println(first - second);
-        }
-        if (choice == 3) {
+        } else if (choice == 3) {
             System.out.print("Division --> ");
             System.out.println(first / second);
+        } else if (choice == 4) {
+            System.out.print("Multiplication --> ");
+            System.out.println(first * second);
+        } else {
+            System.out.println("Irrelevant choice.");
         }
+
         System.out.println();
     }
 }
